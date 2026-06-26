@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="body">
+      <!--start left section-->
+      <div class="left-section">
+        <h2>
+          Welcome to <br />
+          the Todo List website
+        </h2>
+        <img src="./imgs/memes.gif" />
+      </div>
+      <!--end left section-->
+
+      <!--strat right section-->
+      <div class="right-section">
+        <div class="countiner">
+          <header>
+            <h2>ToDo List</h2>
+            <img src="./imgs/todolisticon.png" />
+          </header>
+          <!-- To Add Task-->
+          <form id="taskForm">
+            <label>Your Task</label>
+            <br />
+            <input type="text" id="title" placeholder="Add New Task" />
+            <br />
+            <br />
+            <label>Deadline Task</label>
+            <br />
+            <input type="datetime-local" id="deadline" />
+            <br />
+            <br />
+            <button type="button" id="submit">Add</button>
+          </form>
+
+          <hr />
+          <p>TO Do</p>
+
+          <!--All Tasks-->
+          <div class="all-tasks">
+           
+          </div>
+          
+        </div>
+      </div>
+      <!--end right section-->
+    </div>
+
+    <!-- sweet alert js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+     <!-- main js -->
+     <script src="main.js"></script>
+  </body>
+</html>

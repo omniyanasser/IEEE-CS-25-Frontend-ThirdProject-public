@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.body 
+{
+    display: flex;
+    height: 700px;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+}
+
+.left-section{
+    width: 90%;
+    background-color: rgb(119 183 127);
+    text-align: center;
+    color: white;
+}
+
+.left-section h2 
+{
+    letter-spacing: 7px;
+    line-height: 3;
+    font-weight: 50;
+    font-size: 50px;
+}
+
+.left-section img {
+    width :450px;
+
+}
+
+
+.right-section
+{
+width: 90%;
+text-align: center;
+
+
+}
+.right-section .countiner{
+    width: 60%;
+    border: solid 1px;
+    margin: 38px 145px;
+    border: 3px solid #77b77f;
+    color:#77b77f;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+.right-section header 
+{
+    margin-bottom: 33px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.right-section header h2{
+    padding-top: 10px;
+}
+
+.right-section header img{
+    padding-top: 20px;
+    height: 50px;
+
+}
+
+.right-section input::placeholder{
+    color: #77b77f;
+}
+.right-section form input
+{    width: 70%;
+    border: 1px solid #77b77f;
+    height: 35px;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    border-radius: 5px;
+    color:#77b77f;
+
+}
+
+.right-section form input:focus {
+    border: 3px solid #77b77f;
+    outline: none;
+  }
+
+
+input[type="datetime-local"] {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .right-section form button {
+    width: 15%;
+    height: 30px;
+    background-color: #77b77f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+  }
+
+  .right-section hr {
+    background-color: #77b77f;
+    height: 1px;
+   width: 90%;
+}
+
+.right-section .all-tasks{
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+}
+
+.right-section .task {
+    display: flex;
+        width: 90%;
+        border: 1px solid #77b77f;
+        border-radius: 5px;
+        padding: 5px 0 0 5px;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+.right-section .icons-task button {
+    background-color: transparent;
+    border: none;
+    margin-left: -10px;
+    margin-top: 10px;
+
+}
+
+.right-section .icons-task button img {
+    width: 17px;
+}
+.right-section .name-task h6{
+   
+    margin-bottom: -15px;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+.right-section .name-task p,
+.right-section .icons-task p
+{
+    color: #9508085e;
+    font-size: 12px;
+    padding: 0;
+    margin-top: 0px;
+    
+}
